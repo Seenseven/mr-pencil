@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Mr. Pencil Artist and Designer — wall painting, sign boards, lettering, logos, school badges, painting, henna, mentor OD drawing and portraits.">
+<title>Mr. Pencil ✏️ | Artist & Designer</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:#17213a;background:#fff8e8;line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:#0b2048;color:#fff;padding:14px 6%;display:flex;justify-content:space-between;align-items:center}.logo{font-size:24px;font-weight:bold;font-style:italic}.logo span,h1 span{color:#f5b700}nav a{color:white;text-decoration:none;margin:0 8px;font-weight:bold}.wa{background:#25d366;padding:9px 15px;border-radius:25px}
+.hero{min-height:78vh;text-align:center;padding:80px 6%;display:grid;place-items:center;background:radial-gradient(circle at 15% 20%,#ffd66b 0 7%,transparent 8%),radial-gradient(circle at 85% 15%,#e8a7d7 0 8%,transparent 9%),linear-gradient(135deg,#fff8df,#f5d39a 50%,#d9eee5);position:relative;overflow:hidden}.hero:after{content:"🎨 ✏️ 🖌️";position:absolute;font-size:70px;opacity:.13;bottom:20px;right:5%}
+.hero-inner{max-width:900px;position:relative;z-index:2}.tag{display:inline-block;background:#0b2048;color:white;padding:8px 18px;border-radius:30px;font-weight:bold}h1{font-size:clamp(55px,10vw,110px);line-height:.9;margin:20px 0 12px;font-style:italic;color:#0b2048}.hero h2{font-size:clamp(22px,4vw,38px);margin:0}.hero p{font-size:18px;max-width:700px;margin:18px auto}.btn{display:inline-block;padding:13px 22px;border-radius:30px;background:#0b2048;color:white;text-decoration:none;font-weight:bold;margin:6px}.gold{background:#f5b700;color:#17213a}
+section{padding:70px 6%}.title{text-align:center;font-size:42px;color:#0b2048;font-style:italic;margin:0 0 10px}.sub{text-align:center;color:#657086;max-width:720px;margin:0 auto 35px}
+.services{background:#fffdf7}.grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:white;padding:22px;border-radius:20px;border:1px solid #eadfca;box-shadow:0 8px 25px #10244f12}.icon{font-size:38px}.card h3{color:#0b2048;margin:8px 0}.card p{color:#687083}
+.gallery{background:#0b2048;color:white}.gallery .title{color:white}.gallery .sub{color:#dbe2f1}.gallerygrid{max-width:1150px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.art{height:230px;border-radius:18px;display:grid;place-items:center;text-align:center;font-weight:bold;font-size:20px;padding:20px;background:linear-gradient(135deg,#f5c85d,#e97e62,#4d9aa7)}.art:nth-child(2){background:linear-gradient(135deg,#142c59,#d6a53c)}.art:nth-child(3){background:linear-gradient(135deg,#ef9b9b,#f4d16b,#69a7a1)}.art:nth-child(4){background:linear-gradient(135deg,#8db6d9,#f5d47a)}.art:nth-child(5){background:linear-gradient(135deg,#777,#ddd)}.art:nth-child(6){background:linear-gradient(135deg,#5b2d42,#c989a8)}
+.upload{max-width:850px;margin:25px auto 0;border:1px dashed #9fb0d4;padding:20px;border-radius:16px;text-align:center}.upload input{max-width:100%;margin-top:10px}
+.commission{background:linear-gradient(135deg,#ffe5a1,#fff8e8)}.contact{max-width:850px;margin:auto;background:white;padding:35px;border-radius:25px;text-align:center;box-shadow:0 12px 35px #10244f18}.contacts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.contacts a{padding:14px;border-radius:13px;color:white;text-decoration:none;font-weight:bold}.green{background:#25d366}.pink{background:#d62976}.blue{background:#0b2048}
+footer{background:#071b40;color:#dbe2f1;text-align:center;padding:35px}footer strong{font-size:20px;color:white}
+
+.payment{background:#f7f1e3}
+.payment-box{max-width:850px;margin:auto;background:white;padding:32px;border-radius:24px;box-shadow:0 12px 35px #10244f18}
+.payment-details{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:22px}
+.pay-item{background:#fff8e8;border:1px solid #eadfca;border-radius:16px;padding:20px;text-align:center}
+.pay-item small{display:block;color:#687083;margin-bottom:5px}.pay-item strong{font-size:24px;color:#0b2048}
+.request-form{max-width:850px;margin:25px auto 0;background:white;padding:28px;border-radius:24px;box-shadow:0 12px 35px #10244f18}
+.request-form label{display:block;font-weight:bold;color:#0b2048;margin:13px 0 6px}
+.request-form select,.request-form textarea{width:100%;padding:13px;border:1px solid #d9d2c2;border-radius:12px;font:inherit;background:#fffdf7}
+.request-form textarea{min-height:110px;resize:vertical}
+.send-btn{border:0;cursor:pointer;margin-top:18px;padding:14px 22px;border-radius:30px;background:#25d366;color:white;font-weight:bold;font-size:16px}
+@media(max-width:600px){.payment-details{grid-template-columns:1fr}}
+
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.gallerygrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){nav a:not(.wa){display:none}.grid,.gallerygrid,.contacts{grid-template-columns:1fr}section{padding:55px 5%}.hero{min-height:70vh}}
+.brand-logo{display:block;width:min(620px,92%);height:auto;margin:0 auto 28px;border-radius:18px;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+</style>
+<link rel="icon" type="image/png" href="mr-pencil-logo.png">
+</head>
+<body>
+<nav><a class="logo" href="#home">Mr. <span>Pencil ✏️</span></a><div><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#commission">Commission</a><a href="#payment">Payment</a></div><a class="wa" href="https://wa.me/254705332358" target="_blank">WhatsApp</a></nav>
+
+<header class="hero" id="home"><div class="hero-inner"><div class="tag">🎨 ARTIST • DESIGNER • CREATOR</div><h1>Mr. <span>Pencil</span> ✏️</h1><h2>Artist & Designer</h2><p><b>Turning ideas into beautiful art.</b><br>Creative artwork for homes, schools, businesses and personal projects.</p><a class="btn gold" href="#commission">Commission My Work</a><a class="btn" href="#gallery">View My Gallery</a></div></header>
+
+<section class="services" id="services"><h2 class="title">My Services</h2><p class="sub">Creative, detailed and professional artwork made to your vision.</p><div class="grid">
+<div class="card"><div class="icon">🖌️</div><h3>Wall Painting & Grafix</h3><p>Murals, wall graphics and decorative artwork.</p></div>
+<div class="card"><div class="icon">🪧</div><h3>Sign Boards Drawing</h3><p>Eye-catching sign boards for shops, offices and events.</p></div>
+<div class="card"><div class="icon">✍️</div><h3>Letters Writing</h3><p>Beautiful lettering and professional sign writing.</p></div>
+<div class="card"><div class="icon">🏫</div><h3>Logos & School Badges</h3><p>Custom logos, badges, emblems and identity artwork.</p></div>
+<div class="card"><div class="icon">🎨</div><h3>Painting</h3><p>Original paintings created to match your vision.</p></div>
+<div class="card"><div class="icon">🌿</div><h3>Henna Drawing</h3><p>Detailed creative henna designs for special occasions.</p></div>
+<div class="card"><div class="icon">✏️</div><h3>Mentor OD Drawing</h3><p>Custom mentor-style and detailed drawing work.</p></div>
+<div class="card"><div class="icon">🖼️</div><h3>Portraits</h3><p>Detailed pencil and artistic portraits from your photos.</p></div>
+</div></section>
+
+<section class="gallery" id="gallery"><h2 class="title">My Gallery</h2><p class="sub">Your artwork photos can be displayed here to market your work.</p><div class="gallerygrid">
+<div class="art">🖌️<br>ADD WALL ART PHOTO</div><div class="art">🪧<br>ADD SIGN BOARD PHOTO</div><div class="art">✍️<br>ADD LETTERING PHOTO</div><div class="art">🏫<br>ADD LOGO / BADGE PHOTO</div><div class="art">✏️<br>ADD PORTRAIT PHOTO</div><div class="art">🌿<br>ADD HENNA PHOTO</div>
+</div><div class="upload"><b>📸 Choose multiple photos to preview</b><br><input type="file" id="photos" accept="image/*" multiple></div></section>
+
+<section id="about"><h2 class="title">About Mr. Pencil</h2><p class="sub">I turn ideas into artwork people can see, enjoy and remember. Every project is handled with creativity, patience and attention to detail.</p></section>
+
+
+<section class="payment" id="payment">
+  <div class="payment-box">
+    <h2 class="title">Payment</h2>
+    <p class="sub">For payments through M-Pesa, use the details below. Please contact Mr. Pencil first to confirm the price and project details.</p>
+    <div class="payment-details">
+      <div class="pay-item"><small>M-Pesa Paybill</small><strong>522522</strong></div>
+      <div class="pay-item"><small>Account Number</small><strong>1346530114</strong></div>
+    </div>
+  </div>
+
+  <div class="request-form">
+    <h2 class="title" style="font-size:32px">Choose a Service & Send Your Request</h2>
+    <p class="sub">Select what you need, add your description, then send the request directly to WhatsApp.</p>
+    <label for="service">Choose a service</label>
+    <select id="service">
+      <option value="">-- Select a service --</option>
+      <option>Wall Painting & Grafix</option>
+      <option>Sign Boards Drawing</option>
+      <option>Letters Writing</option>
+      <option>Logos & School Badges</option>
+      <option>Painting</option>
+      <option>Henna Drawing</option>
+      <option>Mentor OD Drawing</option>
+      <option>Portraits</option>
+      <option>Other / Custom Artwork</option>
+    </select>
+
+    <label for="description">Describe what you want</label>
+    <textarea id="description" placeholder="Example: I need a wall mural for my shop, 3 metres wide. I would like..."></textarea>
+
+    <button class="send-btn" onclick="sendRequest()">💬 Send Service Request on WhatsApp</button>
+  </div>
+</section>
+
+<section class="commission" id="commission"><div class="contact"><h2 class="title">Commission My Work</h2><p>Have a wall to transform, portrait to draw, logo to create or sign board to design?</p><p><b>Send your idea, reference photo or project details directly to me.</b></p><div class="contacts"><a class="green" href="https://wa.me/254705332358" target="_blank">💬 WhatsApp Me</a><a class="pink" href="https://instagram.com/_yeah_._seen" target="_blank">📷 Instagram</a><a class="blue" href="tel:+254705332358">📞 Call Me</a></div><p style="font-size:13px;color:#777;margin-top:18px">Follow Mr. Pencil on Instagram for more artwork and new projects.</p></div></section>
+
+<footer><strong>Mr. Pencil ✏️ — Artist & Designer</strong><br>Creativity makes the world more beautiful. 🎨<br><small>© 2026 Mr. Pencil</small></footer>
+<script>
+document.getElementById('photos').addEventListener('change',function(e){const grid=document.querySelector('.gallerygrid');[...e.target.files].forEach(f=>{if(!f.type.startsWith('image/'))return;const d=document.createElement('div');d.className='art';d.style.background='url('+URL.createObjectURL(f)+') center/cover';d.textContent='';grid.appendChild(d)})});
+
+function sendRequest(){
+  const service=document.getElementById('service').value;
+  const description=document.getElementById('description').value.trim();
+  if(!service){alert('Please choose a service first.');return;}
+  if(!description){alert('Please describe what you would like.');return;}
+  const message=`Hello Mr. Pencil ✏️, I would like to commission your work.%0A%0AService: ${encodeURIComponent(service)}%0ADescription: ${encodeURIComponent(description)}%0A%0APlease let me know the price and next steps.`;
+  window.open('https://wa.me/254705332358?text='+message,'_blank');
+}
+
+</script>
+</body>
+</html>
