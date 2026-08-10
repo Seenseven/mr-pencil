@@ -30,9 +30,12 @@ footer{background:#071b40;color:#dbe2f1;text-align:center;padding:35px}footer st
 @media(max-width:600px){.payment-details{grid-template-columns:1fr}}
 
 @media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.gallerygrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){nav a:not(.wa){display:none}.grid,.gallerygrid,.contacts{grid-template-columns:1fr}section{padding:55px 5%}.hero{min-height:70vh}}
-.brand-logo{display:block;width:min(620px,92%);height:auto;margin:0 auto 28px;border-radius:18px;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+
+.gallerygrid .art{overflow:hidden;position:relative;padding:0}
+.gallerygrid .art img{width:100%;height:100%;object-fit:cover;display:block}
+.gallerygrid .art .caption{position:absolute;left:0;right:0;bottom:0;padding:10px 12px;background:rgba(0,0,0,.65);color:#fff;font-size:15px;text-align:left}
+
 </style>
-<link rel="icon" type="image/png" href="mr-pencil-logo.png">
 </head>
 <body>
 <nav><a class="logo" href="#home">Mr. <span>Pencil ✏️</span></a><div><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#commission">Commission</a><a href="#payment">Payment</a></div><a class="wa" href="https://wa.me/254705332358" target="_blank">WhatsApp</a></nav>
@@ -51,7 +54,15 @@ footer{background:#071b40;color:#dbe2f1;text-align:center;padding:35px}footer st
 </div></section>
 
 <section class="gallery" id="gallery"><h2 class="title">My Gallery</h2><p class="sub">Your artwork photos can be displayed here to market your work.</p><div class="gallerygrid">
-<div class="art"><imgsrc="graphics.jpeg"🖌️<br>ADD WALL ART PHOTO</div><div class="art">🪧<br>ADD SIGN BOARD PHOTO</div><div class="art">✍️<br>ADD LETTERING PHOTO</div><div class="art">🏫<br>ADD LOGO / BADGE PHOTO</div><div class="art">✏️<br>ADD PORTRAIT PHOTO</div><div class="art">🌿<br>ADD HENNA PHOTO</div>
+
+<div class="art"><img src="wall-grafix.jpg" alt="Wall painting and grafix"><div class="caption">🖌️ Wall Painting & Grafix</div></div>
+<div class="art"><img src="sign-board.jpg" alt="Sign board drawing"><div class="caption">🪧 Sign Boards</div></div>
+<div class="art"><img src="lettering.jpg" alt="Letters writing example"><div class="caption">✍️ Letters Writing</div></div>
+<div class="art"><img src="logo-design.jpg" alt="Logo design example"><div class="caption">🏫 Logos & School Badges</div></div>
+<div class="art"><img src="painting.jpg" alt="Painting example"><div class="caption">🎨 Painting</div></div>
+<div class="art"><img src="henna.jpg" alt="Henna drawing example"><div class="caption">🌿 Henna Drawing</div></div>
+<div class="art"><img src="mentor.jpg" alt="Mentor OD drawing example"><div class="caption">✏️ Mentor OD Drawing</div></div>
+<div class="art"><img src="portrait.jpg" alt="Portrait drawing example"><div class="caption">🖼️ Portraits</div></div>
 </div><div class="upload"><b>📸 Choose multiple photos to preview</b><br><input type="file" id="photos" accept="image/*" multiple></div></section>
 
 <section id="about"><h2 class="title">About Mr. Pencil</h2><p class="sub">I turn ideas into artwork people can see, enjoy and remember. Every project is handled with creativity, patience and attention to detail.</p></section>
@@ -91,7 +102,7 @@ footer{background:#071b40;color:#dbe2f1;text-align:center;padding:35px}footer st
   </div>
 </section>
 
-<section class="commission" id="commission"><div class="contact"><h2 class="title">Commission My Work</h2><p>Have a wall to transform, portrait to draw, logo to create or sign board to design?</p><p><b>Send your idea, reference photo or project details directly to me.</b></p><div class="contacts"><a class="green" href="https://wa.me/254705332358" target="_blank">💬 WhatsApp Me</a><a class="pink" href="https://instagram.com/_yeah_._seen" target="_blank">📷 Instagram</a><a class="blue" href="tel:+254705332358">📞 Call Me</a></div><p style="font-size:13px;color:#777;margin-top:18px">Follow Mr. Pencil on Instagram for more artwork and new projects.</p></div></section>
+<section class="commission" id="commission"><div class="contact"><h2 class="title">Commission My Work</h2><p>Have a wall to transform, portrait to draw, logo to create or sign board to design?</p><p><b>Send your idea, reference photo or project details directly to me.</b></p><div class="contacts"><a class="green" href="https://wa.me/254705332358" target="_blank">💬 WhatsApp Me</a><a class="pink" href="https://instagram.com/_yeah_._seen" target="_blank">📷 Instagram</a><a class="blue" href="tel:+254705332358">📞 Call Me</a></div><p style="font-size:13px;color:#777;margin-top:18px">Available for commissions via WhatsApp, Instagram or phone call.</p></div></section>
 
 <footer><strong>Mr. Pencil ✏️ — Artist & Designer</strong><br>Creativity makes the world more beautiful. 🎨<br><small>© 2026 Mr. Pencil</small></footer>
 <script>
